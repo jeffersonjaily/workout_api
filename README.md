@@ -6,7 +6,7 @@ FastAPI é um moderno e rápido (alta performance) framework web para construç�
 ### Async
 Código assíncrono apenas significa que a linguagem tem um jeito de dizer para o computador / programa que em certo ponto, ele terá que esperar por algo para finalizar em outro lugar
 
-# Projeto
+# ProjetoUVIN
 ## WorkoutAPI
 
 Esta é uma API de competição de crossfit chamada WorkoutAPI (isso mesmo rs, eu acabei unificando duas coisas que gosto: codar e treinar). É uma API pequena, devido a ser um projeto mais hands-on e simplificado nós desenvolveremos uma API de poucas tabelas, mas com o necessário para você aprender como utilizar o FastAPI.
@@ -20,13 +20,13 @@ A API foi desenvolvida utilizando o `fastapi` (async), junto das seguintes libs:
 
 ## Execução da API
 
-Para executar o projeto, utilizei a [pyenv](https://github.com/pyenv/pyenv), com a versão 3.11.4 do `python` para o ambiente virtual.
+Para executar o projeto, utilizei a [pyenv](https://github.com/pyenv/pyenv), com a versão 3.7.4 do `python` para o ambiente virtual.
 
 Caso opte por usar pyenv, após instalar, execute:
 
 ```bash
-pyenv virtualenv 3.11.4 workoutapi
-pyenv activate workoutapi
+pyenv virtualenv 3.7.4 workoutapi
+pyenv activate workoutapipip
 pip install -r requirements.txt
 ```
 Para subir o banco de dados, caso não tenha o [docker-compose](https://docs.docker.com/compose/install/linux/) instalado, faça a instalação e logo em seguida, execute:
